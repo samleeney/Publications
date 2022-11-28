@@ -1,0 +1,110 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{Akeret, Chang, Lucchi  \& Refregier}{Akeret
+  et~al.}{2017}]{akeret2017radio}
+Akeret J.,  Chang C.,  Lucchi A.,   Refregier A.,  2017, Astronomy and
+  computing, 18, 35
+
+\bibitem[\protect\citeauthoryear{Anstey, de Lera~Acedo  \& Handley}{Anstey
+  et~al.}{2021}]{anstey2021general}
+Anstey D.,  de Lera~Acedo E.,   Handley W.,  2021, Monthly Notices of the Royal
+  Astronomical Society, 506, 2041
+
+\bibitem[\protect\citeauthoryear{Baan, Fridman  \& Millenaar}{Baan
+  et~al.}{2004}]{baan2004radio}
+Baan W.,  Fridman P.,   Millenaar R.,  2004, The Astronomical Journal, 128, 933
+
+\bibitem[\protect\citeauthoryear{Bourke et~al.,}{Bourke
+  et~al.}{2015}]{bourke2015advancing}
+Bourke T.,  et~al., 2015
+
+\bibitem[\protect\citeauthoryear{Bowman, Rogers, Monsalve, Mozdzen  \&
+  Mahesh}{Bowman et~al.}{2018}]{bowman2018absorption}
+Bowman J.~D.,  Rogers A.~E.,  Monsalve R.~A.,  Mozdzen T.~J.,   Mahesh N.,
+  2018, Nature, 555, 67
+
+\bibitem[\protect\citeauthoryear{Ellingson \& Lewis}{Ellingson \&
+  Lewis}{2006}]{ellingson2006rfi}
+Ellingson S.,  Lewis B.,  2006, An SKA Engineering Overview, p.~116
+
+\bibitem[\protect\citeauthoryear{Handley}{Handley}{2018}]{fgivenx}
+Handley W.,  2018, \mn@doi [The Journal of Open Source Software]
+  {10.21105/joss.00849}, 3
+
+\bibitem[\protect\citeauthoryear{Handley}{Handley}{2019}]{anesthetic}
+Handley W.,  2019, \mn@doi [The Journal of Open Source Software]
+  {10.21105/joss.01414}, 4, 1414
+
+\bibitem[\protect\citeauthoryear{Handley, Hobson  \& Lasenby}{Handley
+  et~al.}{2015}]{handley2015polychord}
+Handley W.,  Hobson M.,   Lasenby A.,  2015, Monthly Notices of the Royal
+  Astronomical Society, 453, 4384
+
+\bibitem[\protect\citeauthoryear{Johnston et~al.,}{Johnston
+  et~al.}{2008}]{johnston2008science}
+Johnston S.,  et~al., 2008, Experimental astronomy, 22, 151
+
+\bibitem[\protect\citeauthoryear{Kerrigan et~al.,}{Kerrigan
+  et~al.}{2019}]{kerrigan2019optimizing}
+Kerrigan J.,  et~al., 2019, Monthly Notices of the Royal Astronomical Society,
+  488, 2605
+
+\bibitem[\protect\citeauthoryear{Offringa}{Offringa}{2010}]{offringa2010aoflagger}
+Offringa A.,  2010, Astrophysics Source Code Library, pp ascl--1010
+
+\bibitem[\protect\citeauthoryear{Offringa, De~Bruyn, Biehl, Zaroubi, Bernardi
+  \& Pandey}{Offringa et~al.}{2010}]{offringa2010post}
+Offringa A.,  De~Bruyn A.,  Biehl M.,  Zaroubi S.,  Bernardi G.,   Pandey V.,
+  2010, Monthly Notices of the Royal Astronomical Society, 405, 155
+
+\bibitem[\protect\citeauthoryear{Oslick, Linscott, Maslakovic  \&
+  Twicken}{Oslick et~al.}{1998}]{oslick1998general}
+Oslick M.,  Linscott I.~R.,  Maslakovic S.,   Twicken J.~D.,  1998, in
+  Proceedings of the 1998 IEEE International Conference on Acoustics, Speech
+  and Signal Processing, ICASSP'98 (Cat. No. 98CH36181). pp 1537--1540
+
+\bibitem[\protect\citeauthoryear{Singh et~al.,}{Singh
+  et~al.}{2017}]{singh2017first}
+Singh S.,  et~al., 2017, The Astrophysical Journal Letters, 845, L12
+
+\bibitem[\protect\citeauthoryear{Sivia \& Skilling}{Sivia \&
+  Skilling}{2006}]{sivia2006data}
+Sivia D.,  Skilling J.,  2006, Data analysis: a Bayesian tutorial.
+OUP Oxford
+
+\bibitem[\protect\citeauthoryear{Sun, Deng, Wang, Mei, Xu, Smirnov, Deng  \&
+  Wei}{Sun et~al.}{2022}]{sun2022robust}
+Sun H.,  Deng H.,  Wang F.,  Mei Y.,  Xu T.,  Smirnov O.,  Deng L.,   Wei S.,
+  2022, Monthly Notices of the Royal Astronomical Society, 512, 2025
+
+\bibitem[\protect\citeauthoryear{Vafaei~Sadr, Bassett, Oozeer, Fantaye  \&
+  Finlay}{Vafaei~Sadr et~al.}{2020}]{vafaei2020deep}
+Vafaei~Sadr A.,  Bassett B.~A.,  Oozeer N.,  Fantaye Y.,   Finlay C.,  2020,
+  Monthly Notices of the Royal Astronomical Society, 499, 379
+
+\bibitem[\protect\citeauthoryear{Wilensky}{Wilensky}{2021}]{wilensky2021improving}
+Wilensky M.,  2021, PhD thesis, University of Washington
+
+\bibitem[\protect\citeauthoryear{de Lera~Acedo et~al.,}{de~Lera~Acedo
+  et~al.}{2022}]{de2022reach}
+de Lera~Acedo E.,  et~al., 2022, Nature Astronomy, pp 1--15
+
+\makeatother
+\end{thebibliography}
